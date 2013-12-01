@@ -1,0 +1,89 @@
+/* line 1, ../sass/stage.scss */
+body {
+  background: #333;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 9, ../sass/stage.scss */
+.wrap {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/stage.scss */
+hr {
+  width: 100%;
+  clear: both;
+  border-color: #FFF;
+  background: #FFF;
+}
+
+/* line 21, ../sass/stage.scss */
+section {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  padding-top: 50px;
+}
+/* line 27, ../sass/stage.scss */
+section#basic {
+  background: #333333 url(../img/darkdenim3.png);
+}
+/* line 30, ../sass/stage.scss */
+section#moz {
+  background: #FFF;
+}
+/* line 33, ../sass/stage.scss */
+section#flatpill, section #gradpill, section #hoverpill {
+  background: #333;
+  height: 300px;
+}
+/* line 37, ../sass/stage.scss */
+section#gradpill, section #hoverpill {
+  height: 250px;
+}
+
+/* line 42, ../sass/stage.scss */
+#header {
+  width: 100%;
+  height: 200px;
+  background: #FFF;
+  border-top: 4px solid #333;
+}
+
+/* line 48, ../sass/stage.scss */
+#header h1 {
+  color: #555;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding-top: 50px;
+}
+
+/* line 55, ../sass/stage.scss */
+#header h2 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #555;
+  margin: 0;
+  padding-top: 10px;
+}
+
+/* line 63, ../sass/stage.scss */
+ul.holder {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 69, ../sass/stage.scss */
+ul.holder li {
+  float: left;
+  width: 33%;
+  height: auto;
+  padding: 10px 0;
+}

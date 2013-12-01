@@ -1,0 +1,39 @@
+// CSS3 Button Collection
+// All buttons created by Alex Pate
+// https://ajp.im
+// a@ajp.im
+
+button {
+	margin: 5px auto;
+	display:block;
+	cursor:pointer;
+	font: 16px/16px 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: none transparent;
+	border: none;
+
+	&:focus {
+		outline:none
+	}
+
+
+	// Import Basic Styles
+	@import "basic";
+
+	// Import Moz Styles
+	@import "moz";
+
+	// Import Pill Styles
+	@import "flatpill";
+
+	// Import Pill Styles
+	@import "appstore";
+
+	
+}
+
+// Import Gradient Colours
+@import "gradientcolours";
+
+// Import Flat Colours
+@import "flatcolours";

@@ -1,0 +1,371 @@
+/* line 6, ../sass/buttons.scss */
+button {
+  margin: 5px auto;
+  display: block;
+  cursor: pointer;
+  font: 16px/16px "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: none transparent;
+  border: none;
+  /* BASIC BUTTON */
+  /* MOZ BUTTON - Inspired by the buttons used by Mozilla. */
+  /* PILL - Plain and simple. */
+  /* PILL HOVER VARIATION - Plain and simple, with a twist. */
+  /* App Store - Inspired by Apple */
+}
+/* line 15, ../sass/buttons.scss */
+button:focus {
+  outline: none;
+}
+/* line 2, ../sass/_basic.scss */
+button.basic {
+  width: 275px;
+  height: 65px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+/* line 13, ../sass/_basic.scss */
+button.basic:hover {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
+}
+/* line 18, ../sass/_basic.scss */
+button.basic:active {
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* line 2, ../sass/_moz.scss */
+button.moz {
+  width: 220px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+  text-shadow: 0px -1px 2px rgba(0, 0, 0, 0.4);
+  padding: 25px 53px;
+  font: 18px/23px "Montserrat", sans-serif;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+}
+/* line 15, ../sass/_moz.scss */
+button.moz:hover {
+  -webkit-box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
+}
+/* line 20, ../sass/_moz.scss */
+button.moz:active {
+  -webkit-box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* line 2, ../sass/_flatpill.scss */
+button.pill {
+  width: 230px;
+  height: 36px;
+  padding: 10px 20px;
+  background: #FFF;
+  border-radius: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+/* line 14, ../sass/_flatpill.scss */
+button.pill:hover {
+  background: #FFF;
+  color: #444;
+}
+/* line 21, ../sass/_flatpill.scss */
+button.pillhov {
+  width: 230px;
+  height: 36px;
+  padding: 10px 20px;
+  background: #FFF;
+  border-radius: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+/* line 33, ../sass/_flatpill.scss */
+button.pillhov:hover {
+  background: #FFF;
+  color: #444;
+}
+/* line 37, ../sass/_flatpill.scss */
+button.pillhov:hover:before {
+  border: 2px solid #FFF;
+  border-radius: 36px;
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+}
+/* line 2, ../sass/_appstore.scss */
+button.appstore {
+  width: 300px;
+  height: 100px;
+  padding: 20px 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+  color: #ece8e9;
+  font-size: 16px;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+/* line 16, ../sass/_appstore.scss */
+button.appstore span.iconiphone {
+  float: left;
+  width: 33px;
+  height: 58px;
+  top: 5px;
+  background: url(../i/iphone.png);
+}
+/* line 23, ../sass/_appstore.scss */
+button.appstore span.appinner {
+  font-size: 28px;
+  line-height: 28px;
+  display: block;
+  font-weight: bold;
+}
+/* line 29, ../sass/_appstore.scss */
+button.appstore:hover {
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+}
+
+/* GRADIENT COLOURS
+/* BLUE */
+/* line 3, ../sass/_gradientcolours.scss */
+.blue {
+  background: #0066b2;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #0066b2 0%, #004c85 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0066b2), color-stop(100%, #004c85));
+  background: -webkit-linear-gradient(top, #0066b2 0%, #004c85 100%);
+  background: -o-linear-gradient(top, #0066b2 0%, #004c85 100%);
+  background: -ms-linear-gradient(top, #0066b2 0%, #004c85 100%);
+  background: linear-gradient(to bottom, #0066b2 0%, #004c85 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0066b2', endColorstr='#004c85',GradientType=0 );
+  color: #FFF;
+}
+
+/* GREEN */
+/* line 15, ../sass/_gradientcolours.scss */
+.green {
+  background: #8bca33;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #8bca33 0%, #6c9c28 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8bca33), color-stop(100%, #6c9c28));
+  background: -webkit-linear-gradient(top, #8bca33 0%, #6c9c28 100%);
+  background: -o-linear-gradient(top, #8bca33 0%, #6c9c28 100%);
+  background: -ms-linear-gradient(top, #8bca33 0%, #6c9c28 100%);
+  background: linear-gradient(to bottom, #8bca33 0%, #6c9c28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8bca33', endColorstr='#6c9c28',GradientType=0 );
+  color: #FFF;
+}
+
+/* RED */
+/* line 27, ../sass/_gradientcolours.scss */
+.red {
+  background: #d8203d;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #d8203d 0%, #a4182e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d8203d), color-stop(100%, #a4182e));
+  background: -webkit-linear-gradient(top, #d8203d 0%, #a4182e 100%);
+  background: -o-linear-gradient(top, #d8203d 0%, #a4182e 100%);
+  background: -ms-linear-gradient(top, #d8203d 0%, #a4182e 100%);
+  background: linear-gradient(to bottom, #d8203d 0%, #a4182e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8203d', endColorstr='#a4182e',GradientType=0 );
+  color: #FFF;
+}
+
+/* ORANGE */
+/* line 39, ../sass/_gradientcolours.scss */
+.orange {
+  background: #cf6a11;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #cf6a11 0%, #9e510d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf6a11), color-stop(100%, #9e510d));
+  background: -webkit-linear-gradient(top, #cf6a11 0%, #9e510d 100%);
+  background: -o-linear-gradient(top, #cf6a11 0%, #9e510d 100%);
+  background: -ms-linear-gradient(top, #cf6a11 0%, #9e510d 100%);
+  background: linear-gradient(to bottom, #cf6a11 0%, #9e510d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf6a11', endColorstr='#9e510d',GradientType=0 );
+  color: #FFF;
+}
+
+/* PURPLE */
+/* line 51, ../sass/_gradientcolours.scss */
+.purple {
+  background: #8d43ab;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #8d43ab 0%, #6c3383 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8d43ab), color-stop(100%, #6c3383));
+  background: -webkit-linear-gradient(top, #8d43ab 0%, #6c3383 100%);
+  background: -o-linear-gradient(top, #8d43ab 0%, #6c3383 100%);
+  background: -ms-linear-gradient(top, #8d43ab 0%, #6c3383 100%);
+  background: linear-gradient(to bottom, #8d43ab 0%, #6c3383 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8d43ab', endColorstr='#6c3383',GradientType=0 );
+  color: #FFF;
+}
+
+/* NEUTRAL */
+/* line 63, ../sass/_gradientcolours.scss */
+.neutral {
+  background: #34485d;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #34485d 0%, #273746 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #34485d), color-stop(100%, #273746));
+  background: -webkit-linear-gradient(top, #34485d 0%, #273746 100%);
+  background: -o-linear-gradient(top, #34485d 0%, #273746 100%);
+  background: -ms-linear-gradient(top, #34485d 0%, #273746 100%);
+  background: linear-gradient(to bottom, #34485d 0%, #273746 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#34485d', endColorstr='#273746',GradientType=0 );
+  color: #FFF;
+}
+
+/* YELLOW */
+/* line 75, ../sass/_gradientcolours.scss */
+.yellow {
+  background: #fcbd00;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #fcbd00 0%, #c09000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcbd00), color-stop(100%, #c09000));
+  background: -webkit-linear-gradient(top, #fcbd00 0%, #c09000 100%);
+  background: -o-linear-gradient(top, #fcbd00 0%, #c09000 100%);
+  background: -ms-linear-gradient(top, #fcbd00 0%, #c09000 100%);
+  background: linear-gradient(to bottom, #fcbd00 0%, #c09000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcbd00', endColorstr='#c09000',GradientType=0 );
+  color: #FFF;
+}
+
+/* DARK GREEN */
+/* line 87, ../sass/_gradientcolours.scss */
+.darkgreen {
+  background: #17a086;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #17a086 0%, #127c68 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #17a086), color-stop(100%, #127c68));
+  background: -webkit-linear-gradient(top, #17a086 0%, #127c68 100%);
+  background: -o-linear-gradient(top, #17a086 0%, #127c68 100%);
+  background: -ms-linear-gradient(top, #17a086 0%, #127c68 100%);
+  background: linear-gradient(to bottom, #17a086 0%, #127c68 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17a086', endColorstr='#127c68',GradientType=0 );
+  color: #FFF;
+}
+
+/* BLACK */
+/* line 99, ../sass/_gradientcolours.scss */
+.black {
+  background: #333232;
+  /* Graceful Descent */
+  background: -moz-linear-gradient(top, #333232 0%, #252525 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333232), color-stop(100%, #252525));
+  background: -webkit-linear-gradient(top, #333232 0%, #252525 100%);
+  background: -o-linear-gradient(top, #333232 0%, #252525 100%);
+  background: -ms-linear-gradient(top, #333232 0%, #252525 100%);
+  background: linear-gradient(to bottom, #333232 0%, #252525 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333232', endColorstr='#252525',GradientType=0 );
+  color: #FFF;
+}
+
+/* Flat Colours - Swatch from -- colourlovers.com/business/trends/branding/7880/Papeterie_Haute-Ville_Logo */
+/* Purple */
+/* line 3, ../sass/_flatcolours.scss */
+.flatpurple {
+  background: #4b2856;
+  color: #FFF;
+}
+
+/* Blue */
+/* line 8, ../sass/_flatcolours.scss */
+.flatblue {
+  background: #0676bf;
+  color: #FFF;
+}
+
+/* Aqua */
+/* line 13, ../sass/_flatcolours.scss */
+.flataqua {
+  background: #01a4a4;
+  color: #FFF;
+}
+
+/* flashblue */
+/* line 18, ../sass/_flatcolours.scss */
+.flatflashblue {
+  background: #00a1cb;
+  color: #FFF;
+}
+
+/* green */
+/* line 23, ../sass/_flatcolours.scss */
+.flatgreen {
+  background: #61ae24;
+  color: #FFF;
+}
+
+/* yellow */
+/* line 28, ../sass/_flatcolours.scss */
+.flatyellow {
+  background: #d0d102;
+  color: #FFF;
+}
+
+/* darkgreen */
+/* line 33, ../sass/_flatcolours.scss */
+.flatdarkgreen {
+  background: #32742c;
+  color: #FFF;
+}
+
+/* pink */
+/* line 38, ../sass/_flatcolours.scss */
+.flatpink {
+  background: #d70060;
+  color: #FFF;
+}
+
+/* red */
+/* line 43, ../sass/_flatcolours.scss */
+.flatred {
+  background: #e54028;
+  color: #FFF;
+}
+
+/* orange */
+/* line 48, ../sass/_flatcolours.scss */
+.flatorange {
+  background: #f18d05;
+  color: #FFF;
+}
+
+/* grey */
+/* line 53, ../sass/_flatcolours.scss */
+.flatgrey {
+  background: #616161;
+  color: #FFF;
+}

@@ -1,0 +1,35 @@
+/* App Store - Inspired by Apple */
+	&.appstore {
+		width:300px;
+		height:100px;
+		padding:20px 30px;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+		-webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+		-moz-box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+		box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45);
+		color:#ece8e9;
+		font-size:16px;
+		font-weight:100;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+		& span.iconiphone {
+			float:left;
+			width:33px;
+			height:58px;
+			top:5px;
+			background: url(../i/iphone.png);
+		}
+		& span.appinner {
+			font-size:28px;
+			line-height:28px;
+			display:block;
+			font-weight:bold;
+		}
+		&:hover {
+			-webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+			-moz-box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+			box-shadow: 0 5px 5px rgba(0,0,0,0.70), inset 0 1px rgba(255,255,255,0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
+
+		}
+	}

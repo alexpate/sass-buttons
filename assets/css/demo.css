@@ -1,0 +1,186 @@
+/* line 3, ../sass/demo.scss */
+body {
+  background: #efecec;
+  margin: 0;
+  padding: 0;
+  font-family: 'Museo Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 11, ../sass/demo.scss */
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 15, ../sass/demo.scss */
+#header {
+  background: #FFF;
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  border-bottom: 1px solid #CCC;
+  -webkit-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 25, ../sass/demo.scss */
+#header h1 {
+  color: #333;
+  font-size: 44px;
+  margin: 0;
+  font-weight: 100;
+}
+/* line 30, ../sass/demo.scss */
+#header h1 span {
+  font-weight: 900;
+}
+/* line 34, ../sass/demo.scss */
+#header h2 {
+  font-weight: 100;
+  margin: 0;
+  color: #444;
+  font-size: 18px;
+}
+
+/* line 43, ../sass/demo.scss */
+section {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  padding: 40px 0;
+  border-bottom: 1px solid #CCC;
+}
+/* line 50, ../sass/demo.scss */
+section .leftinfo {
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+/* line 55, ../sass/demo.scss */
+section .leftinfo .lefttitle {
+  width: 100%;
+  height: 70px;
+  background: #292929;
+  border-radius: 4px;
+}
+/* line 61, ../sass/demo.scss */
+section .leftinfo .lefttitle h3 {
+  color: #FFF;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 70px;
+  margin: 0;
+}
+/* line 73, ../sass/demo.scss */
+section .leftinfo .leftdownload {
+  width: 100%;
+  height: 125px;
+  margin-top: 15px;
+  background: #292929;
+  border-radius: 4px;
+}
+/* line 80, ../sass/demo.scss */
+section .leftinfo .leftdownload a.download {
+  display: block;
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  top: 40px;
+  background: transparent;
+  border: 3px solid #FFF;
+  text-align: center;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 100, ../sass/demo.scss */
+section .rightdemo {
+  width: 645px;
+  height: 210px;
+  background: #292929;
+  float: left;
+  margin-left: 15px;
+  border-radius: 4px;
+}
+
+/* line 109, ../sass/demo.scss */
+button.demobtn {
+  margin: 60px auto;
+  display: block;
+  position: relative;
+}
+
+/* line 115, ../sass/demo.scss */
+#barholder {
+  width: 100%;
+  height: 40px;
+}
+
+/* line 119, ../sass/demo.scss */
+.colourbar {
+  width: 100%;
+  height: 40px;
+  background: #111;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #FFF;
+}
+/* line 128, ../sass/demo.scss */
+.colourbar.fixed {
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+}
+/* line 136, ../sass/demo.scss */
+.colourbar #colourbarinfo {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 700;
+  color: #FFF;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  float: left;
+  width: 200px;
+  padding-top: 15px;
+}
+/* line 148, ../sass/demo.scss */
+.colourbar #thecolours {
+  width: 760px;
+  float: left;
+}
+/* line 152, ../sass/demo.scss */
+.colourbar #thecolours ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-left: 15px;
+}
+/* line 159, ../sass/demo.scss */
+.colourbar #thecolours ul li {
+  float: left;
+  width: 30px;
+  height: 70px;
+  margin-top: -20px;
+  cursor: pointer;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+}

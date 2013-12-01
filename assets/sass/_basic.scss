@@ -1,0 +1,23 @@
+/* BASIC BUTTON */
+	&.basic {
+		width: 275px;
+		height: 65px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		border:none;
+		-webkit-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43);
+		-moz-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43);
+		box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+			&:hover {
+				-webkit-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 0 50px rgba(255,255,255,.30);
+				-moz-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 0 50px rgba(255,255,255,.30);
+				box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 0 50px rgba(255,255,255,.30);
+			}
+			&:active {
+				-webkit-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 4px 8px rgba(0, 0, 0,.30);
+				-moz-box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 4px 8px rgba(0, 0, 0,.30);
+				box-shadow: 0 0 2px rgba(0,0,0,.49), inset 0 1px rgba(255,255,255,.43), inset 0 4px 8px rgba(0, 0, 0,.30);
+			}
+	}

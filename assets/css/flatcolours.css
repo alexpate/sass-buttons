@@ -1,0 +1,77 @@
+/* Flat Colours - Swatch from -- colourlovers.com/business/trends/branding/7880/Papeterie_Haute-Ville_Logo */
+/* Purple */
+/* line 3, ../sass/flatcolours.scss */
+.flatpurple {
+  background: #4b2856;
+  color: #FFF;
+}
+
+/* Blue */
+/* line 8, ../sass/flatcolours.scss */
+.flatblue {
+  background: #0676bf;
+  color: #FFF;
+}
+
+/* Aqua */
+/* line 13, ../sass/flatcolours.scss */
+.flataqua {
+  background: #01a4a4;
+  color: #FFF;
+}
+
+/* flashblue */
+/* line 18, ../sass/flatcolours.scss */
+.flatflashblue {
+  background: #00a1cb;
+  color: #FFF;
+}
+
+/* green */
+/* line 23, ../sass/flatcolours.scss */
+.flatgreen {
+  background: #61ae24;
+  color: #FFF;
+}
+
+/* yellow */
+/* line 28, ../sass/flatcolours.scss */
+.flatyellow {
+  background: #d0d102;
+  color: #FFF;
+}
+
+/* darkgreen */
+/* line 33, ../sass/flatcolours.scss */
+.flatdarkgreen {
+  background: #32742c;
+  color: #FFF;
+}
+
+/* pink */
+/* line 38, ../sass/flatcolours.scss */
+.flatpink {
+  background: #d70060;
+  color: #FFF;
+}
+
+/* red */
+/* line 43, ../sass/flatcolours.scss */
+.flatred {
+  background: #e54028;
+  color: #FFF;
+}
+
+/* orange */
+/* line 48, ../sass/flatcolours.scss */
+.flatorange {
+  background: #f18d05;
+  color: #FFF;
+}
+
+/* grey */
+/* line 53, ../sass/flatcolours.scss */
+.flatgrey {
+  background: #616161;
+  color: #FFF;
+}

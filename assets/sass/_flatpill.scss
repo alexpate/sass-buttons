@@ -1,0 +1,47 @@
+/* PILL - Plain and simple. */
+	&.pill {
+		width:230px;
+		height:36px;
+		padding:10px 20px;
+		background:#FFF;
+		border-radius:36px;
+		text-transform: uppercase;
+		text-align:center;
+		color:#444;
+		font-size:14px;
+		font-weight:bold;
+		position:relative;
+			&:hover {
+				background:#FFF;
+				color:#444;
+			}
+	}
+
+/* PILL HOVER VARIATION - Plain and simple, with a twist. */
+	&.pillhov {
+		width:230px;
+		height:36px;
+		padding:10px 20px;
+		background:#FFF;
+		border-radius:36px;
+		text-transform: uppercase;
+		text-align:center;
+		color:#444;
+		font-size:14px;
+		font-weight:bold;
+		position:relative;
+			&:hover {
+				background:#FFF;
+				color:#444;
+			}
+			&:hover:before { 
+		    border: 2px solid #FFF;
+		    border-radius: 36px;
+		    content: ""; 
+		    position: absolute; 
+		    top: -4px; 
+		    bottom: -4px; 
+		    left: -4px; 
+		    right: -4px;
+		  }
+	}

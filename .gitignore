@@ -1,0 +1,11 @@
+# Ignore sass-cache files.
+*.sass-cache*
+
+# Used for project page
+*index.php*
+
+# OS X Generated
+*.DS_Store*
+
+# Misc Folder
+*Files*
