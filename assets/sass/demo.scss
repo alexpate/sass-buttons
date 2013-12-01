@@ -222,3 +222,16 @@ button.demobtn {
 		background:#ebe9e9;
 	}
 }
+
+#footer {
+	width:100%;
+	height:40px;
+	padding-top:14px;
+
+	& #license {
+		color:#777;
+		font-weight:700;
+		font-size:14px;
+		text-decoration: none;
+	}
+}

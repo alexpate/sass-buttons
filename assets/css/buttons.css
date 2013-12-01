@@ -17,7 +17,7 @@ button {
 button:focus {
   outline: none;
 }
-/* line 2, ../sass/_basic.scss */
+/* line 2, ../sass/partials/_basic.scss */
 button.basic {
   width: 275px;
   height: 65px;
@@ -30,19 +30,19 @@ button.basic {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-/* line 13, ../sass/_basic.scss */
+/* line 13, ../sass/partials/_basic.scss */
 button.basic:hover {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 0 50px rgba(255, 255, 255, 0.3);
 }
-/* line 18, ../sass/_basic.scss */
+/* line 18, ../sass/partials/_basic.scss */
 button.basic:active {
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.49), inset 0 1px rgba(255, 255, 255, 0.43), inset 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-/* line 2, ../sass/_moz.scss */
+/* line 2, ../sass/partials/_moz.scss */
 button.moz {
   width: 220px;
   height: 80px;
@@ -57,19 +57,19 @@ button.moz {
   -moz-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.4);
 }
-/* line 15, ../sass/_moz.scss */
+/* line 15, ../sass/partials/_moz.scss */
 button.moz:hover {
   -webkit-box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
   box-shadow: inset 3px 3px 30px rgba(255, 255, 255, 0.4), inset 0px -4px 0px rgba(0, 0, 0, 0.4);
 }
-/* line 20, ../sass/_moz.scss */
+/* line 20, ../sass/partials/_moz.scss */
 button.moz:active {
   -webkit-box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: inset 3px 3px 30px rgba(0, 0, 0, 0.6), inset 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
-/* line 2, ../sass/_flatpill.scss */
+/* line 2, ../sass/partials/_flatpill.scss */
 button.pill {
   width: 230px;
   height: 36px;
@@ -83,12 +83,12 @@ button.pill {
   font-weight: bold;
   position: relative;
 }
-/* line 14, ../sass/_flatpill.scss */
+/* line 14, ../sass/partials/_flatpill.scss */
 button.pill:hover {
   background: #FFF;
   color: #444;
 }
-/* line 21, ../sass/_flatpill.scss */
+/* line 21, ../sass/partials/_flatpill.scss */
 button.pillhov {
   width: 230px;
   height: 36px;
@@ -102,12 +102,12 @@ button.pillhov {
   font-weight: bold;
   position: relative;
 }
-/* line 33, ../sass/_flatpill.scss */
+/* line 33, ../sass/partials/_flatpill.scss */
 button.pillhov:hover {
   background: #FFF;
   color: #444;
 }
-/* line 37, ../sass/_flatpill.scss */
+/* line 37, ../sass/partials/_flatpill.scss */
 button.pillhov:hover:before {
   border: 2px solid #FFF;
   border-radius: 36px;
@@ -118,7 +118,7 @@ button.pillhov:hover:before {
   left: -4px;
   right: -4px;
 }
-/* line 2, ../sass/_appstore.scss */
+/* line 2, ../sass/partials/_appstore.scss */
 button.appstore {
   width: 300px;
   height: 100px;
@@ -134,7 +134,7 @@ button.appstore {
   font-weight: 100;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-/* line 16, ../sass/_appstore.scss */
+/* line 16, ../sass/partials/_appstore.scss */
 button.appstore span.iconiphone {
   float: left;
   width: 33px;
@@ -142,14 +142,14 @@ button.appstore span.iconiphone {
   top: 5px;
   background: url(../i/iphone.png);
 }
-/* line 23, ../sass/_appstore.scss */
+/* line 23, ../sass/partials/_appstore.scss */
 button.appstore span.appinner {
   font-size: 28px;
   line-height: 28px;
   display: block;
   font-weight: bold;
 }
-/* line 29, ../sass/_appstore.scss */
+/* line 29, ../sass/partials/_appstore.scss */
 button.appstore:hover {
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.53), inset 0 -5px 0px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.35);
@@ -158,7 +158,7 @@ button.appstore:hover {
 
 /* GRADIENT COLOURS
 /* BLUE */
-/* line 3, ../sass/_gradientcolours.scss */
+/* line 3, ../sass/partials/_gradientcolours.scss */
 .blue {
   background: #0066b2;
   /* Graceful Descent */
@@ -173,7 +173,7 @@ button.appstore:hover {
 }
 
 /* GREEN */
-/* line 15, ../sass/_gradientcolours.scss */
+/* line 15, ../sass/partials/_gradientcolours.scss */
 .green {
   background: #8bca33;
   /* Graceful Descent */
@@ -188,7 +188,7 @@ button.appstore:hover {
 }
 
 /* RED */
-/* line 27, ../sass/_gradientcolours.scss */
+/* line 27, ../sass/partials/_gradientcolours.scss */
 .red {
   background: #d8203d;
   /* Graceful Descent */
@@ -203,7 +203,7 @@ button.appstore:hover {
 }
 
 /* ORANGE */
-/* line 39, ../sass/_gradientcolours.scss */
+/* line 39, ../sass/partials/_gradientcolours.scss */
 .orange {
   background: #cf6a11;
   /* Graceful Descent */
@@ -218,7 +218,7 @@ button.appstore:hover {
 }
 
 /* PURPLE */
-/* line 51, ../sass/_gradientcolours.scss */
+/* line 51, ../sass/partials/_gradientcolours.scss */
 .purple {
   background: #8d43ab;
   /* Graceful Descent */
@@ -233,7 +233,7 @@ button.appstore:hover {
 }
 
 /* NEUTRAL */
-/* line 63, ../sass/_gradientcolours.scss */
+/* line 63, ../sass/partials/_gradientcolours.scss */
 .neutral {
   background: #34485d;
   /* Graceful Descent */
@@ -248,7 +248,7 @@ button.appstore:hover {
 }
 
 /* YELLOW */
-/* line 75, ../sass/_gradientcolours.scss */
+/* line 75, ../sass/partials/_gradientcolours.scss */
 .yellow {
   background: #fcbd00;
   /* Graceful Descent */
@@ -263,7 +263,7 @@ button.appstore:hover {
 }
 
 /* DARK GREEN */
-/* line 87, ../sass/_gradientcolours.scss */
+/* line 87, ../sass/partials/_gradientcolours.scss */
 .darkgreen {
   background: #17a086;
   /* Graceful Descent */
@@ -278,7 +278,7 @@ button.appstore:hover {
 }
 
 /* BLACK */
-/* line 99, ../sass/_gradientcolours.scss */
+/* line 99, ../sass/partials/_gradientcolours.scss */
 .black {
   background: #333232;
   /* Graceful Descent */
@@ -294,77 +294,77 @@ button.appstore:hover {
 
 /* Flat Colours - Swatch from -- colourlovers.com/business/trends/branding/7880/Papeterie_Haute-Ville_Logo */
 /* Purple */
-/* line 3, ../sass/_flatcolours.scss */
+/* line 3, ../sass/partials/_flatcolours.scss */
 .flatpurple {
   background: #4b2856;
   color: #FFF;
 }
 
 /* Blue */
-/* line 8, ../sass/_flatcolours.scss */
+/* line 8, ../sass/partials/_flatcolours.scss */
 .flatblue {
   background: #0676bf;
   color: #FFF;
 }
 
 /* Aqua */
-/* line 13, ../sass/_flatcolours.scss */
+/* line 13, ../sass/partials/_flatcolours.scss */
 .flataqua {
   background: #01a4a4;
   color: #FFF;
 }
 
 /* flashblue */
-/* line 18, ../sass/_flatcolours.scss */
+/* line 18, ../sass/partials/_flatcolours.scss */
 .flatflashblue {
   background: #00a1cb;
   color: #FFF;
 }
 
 /* green */
-/* line 23, ../sass/_flatcolours.scss */
+/* line 23, ../sass/partials/_flatcolours.scss */
 .flatgreen {
   background: #61ae24;
   color: #FFF;
 }
 
 /* yellow */
-/* line 28, ../sass/_flatcolours.scss */
+/* line 28, ../sass/partials/_flatcolours.scss */
 .flatyellow {
   background: #d0d102;
   color: #FFF;
 }
 
 /* darkgreen */
-/* line 33, ../sass/_flatcolours.scss */
+/* line 33, ../sass/partials/_flatcolours.scss */
 .flatdarkgreen {
   background: #32742c;
   color: #FFF;
 }
 
 /* pink */
-/* line 38, ../sass/_flatcolours.scss */
+/* line 38, ../sass/partials/_flatcolours.scss */
 .flatpink {
   background: #d70060;
   color: #FFF;
 }
 
 /* red */
-/* line 43, ../sass/_flatcolours.scss */
+/* line 43, ../sass/partials/_flatcolours.scss */
 .flatred {
   background: #e54028;
   color: #FFF;
 }
 
 /* orange */
-/* line 48, ../sass/_flatcolours.scss */
+/* line 48, ../sass/partials/_flatcolours.scss */
 .flatorange {
   background: #f18d05;
   color: #FFF;
 }
 
 /* grey */
-/* line 53, ../sass/_flatcolours.scss */
+/* line 53, ../sass/partials/_flatcolours.scss */
 .flatgrey {
   background: #616161;
   color: #FFF;

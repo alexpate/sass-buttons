@@ -13,27 +13,24 @@ button {
 	border: none;
 
 	&:focus {
-		outline:none
+		outline:none;
 	}
 
 
 	// Import Basic Styles
-	@import "basic";
-
+	@import "partials/basic";
 	// Import Moz Styles
-	@import "moz";
-
+	@import "partials/moz";
 	// Import Pill Styles
-	@import "flatpill";
-
+	@import "partials/flatpill";
 	// Import Pill Styles
-	@import "appstore";
+	@import "partials/appstore";
 
 	
 }
 
 // Import Gradient Colours
-@import "gradientcolours";
+@import "partials/gradientcolours";
 
 // Import Flat Colours
-@import "flatcolours";
+@import "partials/flatcolours";
