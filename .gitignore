@@ -3,6 +3,9 @@
 
 # Used for project page
 *index.php*
+*new.php*
+*dl.php*
+*assets/js*
 
 # OS X Generated
 *.DS_Store*

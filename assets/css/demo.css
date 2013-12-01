@@ -1,9 +1,9 @@
 /* line 3, ../sass/demo.scss */
 body {
-  background: #efecec;
+  background: #FFF;
   margin: 0;
   padding: 0;
-  font-family: 'Museo Sans', sans-serif;
+  font-family: "nimbus-sans",sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -14,116 +14,138 @@ body {
 }
 
 /* line 15, ../sass/demo.scss */
+#superheader {
+  width: 100%;
+  height: 30px;
+  background: #ECECEC;
+  border-bottom: 1px solid #CCC;
+}
+/* line 21, ../sass/demo.scss */
+#superheader #alexlink {
+  color: #888;
+  font-size: 12px;
+  line-height: 30px;
+  text-decoration: none;
+  float: left;
+  display: block;
+}
+/* line 30, ../sass/demo.scss */
+#superheader #social {
+  float: right;
+  padding-top: 5px;
+}
+
+/* line 35, ../sass/demo.scss */
 #header {
   background: #FFF;
   width: 100%;
   height: 200px;
   padding-top: 50px;
   border-bottom: 1px solid #CCC;
-  -webkit-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
 }
-/* line 25, ../sass/demo.scss */
+/* line 42, ../sass/demo.scss */
 #header h1 {
-  color: #333;
-  font-size: 44px;
+  color: #111;
+  font-size: 64px;
+  line-height: 64px;
   margin: 0;
-  font-weight: 100;
+  font-weight: 700;
+  letter-spacing: -2px;
 }
-/* line 30, ../sass/demo.scss */
-#header h1 span {
-  font-weight: 900;
-}
-/* line 34, ../sass/demo.scss */
+/* line 50, ../sass/demo.scss */
 #header h2 {
-  font-weight: 100;
+  font-weight: 900;
   margin: 0;
-  color: #444;
+  color: #222;
   font-size: 18px;
+  letter-spacing: -1px;
 }
 
-/* line 43, ../sass/demo.scss */
+/* line 60, ../sass/demo.scss */
 section {
   width: 100%;
-  height: 240px;
+  height: 170px;
   position: relative;
   padding: 40px 0;
   border-bottom: 1px solid #CCC;
 }
-/* line 50, ../sass/demo.scss */
+/* line 67, ../sass/demo.scss */
 section .leftinfo {
   width: 300px;
-  height: 250px;
+  height: 160px;
   float: left;
 }
-/* line 55, ../sass/demo.scss */
-section .leftinfo .lefttitle {
-  width: 100%;
-  height: 70px;
-  background: #292929;
-  border-radius: 4px;
-}
-/* line 61, ../sass/demo.scss */
-section .leftinfo .lefttitle h3 {
-  color: #FFF;
-  text-align: center;
-  font-style: italic;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 70px;
+/* line 72, ../sass/demo.scss */
+section .leftinfo h3 {
+  color: #222;
+  text-align: left;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  letter-spacing: -2px;
   margin: 0;
 }
-/* line 73, ../sass/demo.scss */
+/* line 82, ../sass/demo.scss */
+section .leftinfo h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 0;
+  color: #222;
+}
+/* line 90, ../sass/demo.scss */
 section .leftinfo .leftdownload {
   width: 100%;
-  height: 125px;
+  height: 80px;
   margin-top: 15px;
-  background: #292929;
-  border-radius: 4px;
 }
-/* line 80, ../sass/demo.scss */
+/* line 95, ../sass/demo.scss */
 section .leftinfo .leftdownload a.download {
   display: block;
   position: relative;
   width: 80%;
   height: 40px;
-  margin: 0 auto;
+  margin: 0;
   top: 40px;
-  background: transparent;
-  border: 3px solid #FFF;
+  background: #00a1cb;
   text-align: center;
   color: #FFF;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
   line-height: 40px;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 100, ../sass/demo.scss */
+/* line 114, ../sass/demo.scss */
 section .rightdemo {
   width: 645px;
-  height: 210px;
+  height: 160px;
   background: #292929;
   float: left;
   margin-left: 15px;
   border-radius: 4px;
 }
-
-/* line 109, ../sass/demo.scss */
-button.demobtn {
-  margin: 60px auto;
-  display: block;
-  position: relative;
+/* line 122, ../sass/demo.scss */
+section .rightdemo #buttonhold {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 115, ../sass/demo.scss */
+/* line 129, ../sass/demo.scss */
+button.demobtn {
+  display: block;
+  position: relative;
+  margin-top: 0;
+}
+
+/* line 135, ../sass/demo.scss */
 #barholder {
   width: 100%;
   height: 40px;
 }
 
-/* line 119, ../sass/demo.scss */
+/* line 139, ../sass/demo.scss */
 .colourbar {
   width: 100%;
   height: 40px;
@@ -133,7 +155,7 @@ button.demobtn {
   position: relative;
   border-bottom: 1px solid #FFF;
 }
-/* line 128, ../sass/demo.scss */
+/* line 148, ../sass/demo.scss */
 .colourbar.fixed {
   position: fixed;
   top: 0;
@@ -141,7 +163,7 @@ button.demobtn {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 }
-/* line 136, ../sass/demo.scss */
+/* line 156, ../sass/demo.scss */
 .colourbar #colourbarinfo {
   font-size: 13px;
   line-height: 13px;
@@ -153,12 +175,12 @@ button.demobtn {
   width: 200px;
   padding-top: 15px;
 }
-/* line 148, ../sass/demo.scss */
+/* line 168, ../sass/demo.scss */
 .colourbar #thecolours {
   width: 760px;
   float: left;
 }
-/* line 152, ../sass/demo.scss */
+/* line 172, ../sass/demo.scss */
 .colourbar #thecolours ul {
   list-style-type: none;
   margin: 0;
@@ -166,7 +188,7 @@ button.demobtn {
   position: relative;
   margin-left: 15px;
 }
-/* line 159, ../sass/demo.scss */
+/* line 179, ../sass/demo.scss */
 .colourbar #thecolours ul li {
   float: left;
   width: 30px;
@@ -183,4 +205,33 @@ button.demobtn {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+}
+
+/* line 199, ../sass/demo.scss */
+.github {
+  display: block;
+  position: relative;
+  width: 240px;
+  height: 40px;
+  margin: 0;
+  top: 16px;
+  text-align: center;
+  color: #a9a6a6;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #f3f2f2;
+  -webkit-box-shadow: inset 0 1px #fff;
+  -moz-box-shadow: inset 0 1px #fff;
+  box-shadow: inset 0 1px #fff;
+  border: solid 1px #d8d9d9;
+}
+/* line 221, ../sass/demo.scss */
+.github:hover {
+  background: #ebe9e9;
 }

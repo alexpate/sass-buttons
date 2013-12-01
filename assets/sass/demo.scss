@@ -1,10 +1,10 @@
 $unitbackground: #292929;
 
 body {
-	background:#efecec;
+	background:#FFF;
 	margin: 0;
 	padding: 0;
-	font-family: 'Museo Sans', sans-serif;
+	font-family: "nimbus-sans",sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
 
@@ -12,83 +12,97 @@ body {
 	width:960px;
 	margin: 0 auto;
 }
+#superheader {
+	width:100%;
+	height:30px;
+	background: #ECECEC;
+	border-bottom: 1px solid #CCC;
+
+	& #alexlink {
+		color:#888;
+		font-size:12px;
+		line-height:30px;
+		text-decoration:none;
+		float:left;
+		display:block;
+	}
+
+	& #social {
+		float:right;
+		padding-top:5px;
+	}
+}
 #header {
 	background:#FFF;
 	width:100%;
 	height:200px;
 	padding-top:50px;
 	border-bottom: 1px solid #CCC;
-	-webkit-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
-	box-shadow: 0 0px 1px rgba(0, 0, 0, 0.15);
 
 	& h1 {
-		color:#333;
-		font-size:44px;
+		color:#111;
+		font-size:64px;
+		line-height:64px;
 		margin: 0;
-		font-weight:100;
-			& span {
-				font-weight:900;
-			}
+		font-weight:700;
+		letter-spacing: -2px;
 	}
 	& h2 {
-		font-weight:100;
+		font-weight:900;
 		margin: 0;
-		color:#444;
+		color:#222;
 		font-size:18px;
+		letter-spacing:-1px;
 
 	}
 }
 
 section {
 	width:100%;
-	height:240px;
+	height:170px;
 	position:relative;
 	padding:40px 0;
 	border-bottom: 1px solid #CCC;
 
 	& .leftinfo {
 		width:300px;
-		height:250px;
+		height:160px;
 		float:left;
 
-		& .lefttitle {
-			width:100%;
-			height:70px;
-			background: $unitbackground;
-			border-radius:4px;
+		& h3 {
+			color:#222;
+			text-align:left;
+			font-weight:700;
+			font-size:33px;
+			line-height:33px;
+			letter-spacing:-2px;
+			margin:0
+		}
 
-			& h3 {
-				color:#FFF;
-				text-align:center;
-				font-style:italic;
-				font-weight:900;
-				font-size:24px;
-				line-height:70px;
-				margin:0
-			}
-
+		& h4 {
+			font-size:16px;
+			font-weight:700;
+			line-height:16px;
+			margin:0;
+			color:#222;
 		}
 
 		& .leftdownload {
 			width:100%;
-			height:125px;
+			height:80px;
 			margin-top:15px;
-			background: $unitbackground;
-			border-radius:4px;
 
 			& a.download {
 				display:block;
 				position:relative;
 				width:80%;
 				height:40px;
-				margin: 0 auto;
-				top: 40px;
-				background:transparent;
-				border: 3px solid #FFF;
+				margin:0;
+				top:40px;
+				background: #00a1cb;
 				text-align: center;
 				color:#FFF;
-				font-weight:900;
+				font-weight:700;
 				font-size:14px;
 				line-height:40px;
 				text-transform: uppercase;
@@ -99,17 +113,23 @@ section {
 
 	& .rightdemo {
 		width: 960 - 315px;
-		height: 210px;
+		height: 160px;
 		background: $unitbackground;
 		float:left;
 		margin-left:15px;
 		border-radius:4px;
+
+		#buttonhold {
+			width:100%;
+			margin-left:auto;
+			margin-right:auto;
+		}
 	}
 }
 button.demobtn {
-	margin: 60px auto;
 	display:block;
 	position:relative;
+	margin-top:0
 }
 
 #barholder {
@@ -174,5 +194,31 @@ button.demobtn {
 			    transform-origin: 0 0;
 			}
 		}
+	}
+}
+.github {
+	display:block;
+	position:relative;
+	width:240px;
+	height:40px;
+	margin:0;
+	top:16px;
+	text-align: center;
+	color:#a9a6a6;
+	font-weight:700;
+	font-size:14px;
+	line-height:40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #f3f2f2;
+	-webkit-box-shadow: inset 0 1px #fff;
+	-moz-box-shadow: inset 0 1px #fff;
+	box-shadow: inset 0 1px #fff;
+	border: solid 1px #d8d9d9;
+	&:hover {
+		background:#ebe9e9;
 	}
 }
