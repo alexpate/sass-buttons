@@ -1,7 +1,11 @@
-// CSS3 Button Collection
-// All buttons created by Alex Pate
-// https://ajp.im
-// a@ajp.im
+// Border-Radius Mixin
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
 
 button {
 	margin: 5px auto;
@@ -15,7 +19,6 @@ button {
 	&:focus {
 		outline:none;
 	}
-
 
 	// Import Basic Styles
 	@import "partials/basic";
@@ -31,6 +34,6 @@ button {
 
 // Import Gradient Colours
 @import "partials/gradientcolours";
-
 // Import Flat Colours
 @import "partials/flatcolours";
+

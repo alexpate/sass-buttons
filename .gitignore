@@ -6,6 +6,9 @@
 *new.php*
 *dl.php*
 *assets/js*
+*assets/css/demo.css*
+*assets/sass/demo.scss*
+*assets/sass/partials/_reset.scss*
 
 # OS X Generated
 *.DS_Store*

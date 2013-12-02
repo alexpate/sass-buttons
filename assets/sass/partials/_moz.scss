@@ -2,7 +2,7 @@
 	&.moz {
 		width: 220px;
 		height: 80px;
-		border-radius: 5px;
+		@include border-radius(5px);
 		text-align: center;
 		font-weight: 400;
 		text-decoration: none;
