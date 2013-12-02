@@ -5,7 +5,6 @@ Although *originally* coded in CSS, I've converted them to SASS, to allow me to 
 
 These were all created for either me or clients that I've worked with. I put together this repo for my own personal use, but perhaps someone else might find it useful.
 
-<<<<<<< HEADg
 Project Structure
 -----------------
 project/
