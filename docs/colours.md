@@ -1,6 +1,8 @@
-/* COLOURS */
+Colour Class Names
+=====
 
-/* FLAT COLOURS */
+Flat Colours
+----
 
 	Flat Purple 		.flatpurple
 	Flat Blue 			.flatblue
@@ -14,7 +16,8 @@
 	Flat Orange 		.flatorange
 	Flat Grey 			.flatgrey
 
-/* GRADIENTS */
+Gradients
+----
 
 	Blue 				.blue
 	Green 				.green

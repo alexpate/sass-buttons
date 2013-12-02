@@ -5,6 +5,7 @@ Although *originally* coded in CSS, I've converted them to SASS, to allow me to 
 
 These were all created for either me or clients that I've worked with. I put together this repo for my own personal use, but perhaps someone else might find it useful.
 
+<<<<<<< HEAD
 Project Structure
 -----------------
 project/
@@ -36,6 +37,9 @@ project/
 |
 `-- README.md 								# ReadMe File
 
+=======
+You can find a list of all the colour class names [here](//github.com/alexpate/sass-buttons/blob/master/docs/colours.md)
+>>>>>>> 732f33edf02b8c22e52ce2f688574c9d51ddda31
 
 Project Page
 ------------
